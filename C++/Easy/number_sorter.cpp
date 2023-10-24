@@ -2,6 +2,9 @@
 #include <vector>
 #include <algorithm>
 
+//Author Khansa Rahim
+//https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true
+
 int main() {
     // Read an integer from the user
     int n;
