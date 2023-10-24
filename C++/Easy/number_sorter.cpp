@@ -1,33 +1,32 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 int main() {
     // Read an integer from the user
     int n;
-    cin >> n;
+    std::cin >> n;
 
     // Create a vector to store the input
-    vector<int> numbers;
+    std::vector<int> numbers;
 
     // Read 'n' integers from the user and store them in the vector
     for (int i = 0; i < n; i++) {
         int num;
-        cin >> num;
+        std::cin >> num;
         numbers.push_back(num);
     }
 
     // Sort the vector in ascending order
-    sort(numbers.begin(), numbers.end());
+    std::sort(numbers.begin(), numbers.end());
 
     // Print the sorted numbers
     for (int i = 0; i < n; i++) {
-        cout << numbers[i] << " ";
+        std::cout << numbers[i] << " ";
     }
 
     // Print a newline character to separate the output
-    cout << endl;
+    std::cout << std::endl;
 
     return 0;
 }
