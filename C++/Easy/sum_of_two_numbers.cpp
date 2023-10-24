@@ -1,5 +1,8 @@
 #include <iostream>
 
+//Khansa Rahim
+//https://www.hackerrank.com/contests/emseupm-sample-1/challenges/adding-two-numbers
+
 int main() {
     int num1, num2;
 
